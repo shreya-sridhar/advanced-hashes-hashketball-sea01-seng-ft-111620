@@ -186,7 +186,7 @@ def player_numbers(t_name)
   jersey_numbers
 end
   
-  
+def player_stats()
   
   
   
