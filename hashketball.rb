@@ -168,7 +168,15 @@ def team_names()
   team_name_array=[]
   game=game_hash()
   game.each do |team, team_hash|    
-    team_name_array << team_hash[:team_names]
+    team_name_array << team_hash[:team_name]
+  end 
+end
+
+
+
+
+
+
       
       
       
