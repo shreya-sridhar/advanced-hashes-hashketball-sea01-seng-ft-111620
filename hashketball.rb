@@ -187,6 +187,7 @@ def player_numbers(t_name)
 end
   
 def player_stats(p_name)
+  stats = Hash.new()
   game = game_hash()
   game.each do |team, team_hash|
   team_hash[:players].each do |player_hash|
@@ -195,6 +196,7 @@ def player_stats(p_name)
     end
   end
 end
+stats
 end
   
   
