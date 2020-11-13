@@ -183,6 +183,7 @@ def player_numbers(t_name)
       end 
     end
   end
+  jersey_numbers
 end
   
   
