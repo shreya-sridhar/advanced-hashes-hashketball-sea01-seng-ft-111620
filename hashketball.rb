@@ -135,8 +135,8 @@ def shoe_size(p_name)
   game = game_hash()
   game.each do |team, team_hash|
     team_hash[:players].each do |player_hash|
-      if player_hash[:name] == player_name
-        player_hash[:shoe_size]
+      if player_hash[:player_name] == p_name
+        player_hash[:shoe]
       end
     end
   end
