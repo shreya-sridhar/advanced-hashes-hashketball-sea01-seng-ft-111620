@@ -173,7 +173,18 @@ def team_names()
   team_name_array
 end
 
-def player_numbers()
+def player_numbers(t_name)
+  game = game_hash()
+  jersey_numbers = []
+  game.each do |team, team_hash|
+    if team_hash[:team_name] == t_name
+      team_hash[:players].each do |player_hash|
+  
+  
+  
+  
+  
+  
 
 
 
