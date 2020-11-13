@@ -165,6 +165,11 @@ def team_colors(t_name)
 end 
       
 def team_names()
+  game=game_hash()
+  game.each do |team, team_hash|    
+    
+      
+      
       
       
   
