@@ -132,6 +132,7 @@ end
 
 # Write code here
 def shoe_size(p_name)
+  k=0
   game = game_hash()
   game.each do |team, team_hash|
     team_hash[:players].each do |player_hash|
