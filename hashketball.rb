@@ -187,16 +187,14 @@ def player_numbers(t_name)
 end
   
 def player_stats(p_name)
-  stats = Hash.new()
   game = game_hash()
   game.each do |team, team_hash|
   team_hash[:players].each do |player_hash|
     if player_hash[:player_name] == p_name
-      stats = player_hash[:players]
+      return player_hash[:players]
     end
   end
 end
-stats
 end
   
   
