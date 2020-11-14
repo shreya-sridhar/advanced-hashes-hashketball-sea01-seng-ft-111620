@@ -198,6 +198,7 @@ end
 end
   
 def big_shoe_rebounds
+  max_shoe_size = 0
   game = game_hash()
   game.each do |team, team_hash|
   team_hash[:players].each do |player_hash|
